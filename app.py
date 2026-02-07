@@ -19,18 +19,18 @@ price_change = st.number_input(
 
 if st.button("Analyze Risk"):
     if price_change > 10:
-        risk = "🔴 High Risk"
+        risk = " High Risk"
     elif price_change > 5:
-        risk = "🟡 Medium Risk"
+        risk = " Medium Risk"
     else:
-        risk = "🟢 Low Risk"
+        risk = " Low Risk"
 
     st.success(f"{crypto_name} Risk Level: {risk}")
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>📊CVRA</title>
+  <title>CVRA</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body img src="C:\Users\Admin\Desktop\crypto-risk-analyzer\templates\icon.png">
@@ -39,10 +39,10 @@ if st.button("Analyze Risk"):
  
 
   <div class="wrapper">
-    <button id="getSetBtn">🚀 GET SET</button>
+    <button id="getSetBtn"> GET SET</button>
 
     <div class="login-container" id="loginBox">
-      <h2>WELCOME BOSS 😎</h2>
+      <h2>WELCOME BOSS </h2>
 
       <input type="text" placeholder="Username or Email">
       <input type="password" placeholder="Password">
@@ -160,5 +160,6 @@ body {
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(56,249,215,0.6);
 }
+
 
 
