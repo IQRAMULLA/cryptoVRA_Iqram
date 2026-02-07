@@ -1,4 +1,7 @@
 import streamlit as st
+import pandas
+import flask
+import numpy
 
 st.set_page_config(
     page_title="Crypto Volatility & Risk Analyzer",
@@ -26,3 +29,4 @@ if st.button("Analyze Risk"):
         risk = "🟢 Low Risk"
 
     st.success(f"{crypto_name} Risk Level: {risk}")
+
