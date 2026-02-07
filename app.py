@@ -5,7 +5,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("📊 Crypto Volatility and Risk Analyzer")
+st.title("Crypto Volatility and Risk Analyzer")
 st.write("Analyze cryptocurrency volatility and identify risk level easily.")
 
 crypto_name = st.text_input("Enter Cryptocurrency Name (e.g., Bitcoin)")
@@ -160,4 +160,5 @@ body {
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(56,249,215,0.6);
 }
+
 
